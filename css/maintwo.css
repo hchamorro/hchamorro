@@ -1,0 +1,42 @@
+border header,
+div,
+nav,
+section,
+footer {
+  border: red 5px solid;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+/* header */
+.directory {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* logo */
+
+/* nav */
+
+/* content */
+.profilepic {
+  height: 250px;
+  float: left;
+  padding: 24px;
+  width: 150px;
+}
+.section-main {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+.section-content {
+  max-width: 750px;
+}
+/* footer */
+.end {
+  display: flex;
+  justify-content: center;
+}
