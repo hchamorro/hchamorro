@@ -1,31 +1,43 @@
-border header,
-div,
-nav,
-section,
-footer {
-  border: red 5px solid;
-}
 .body {
+  background: #41b3a3;
+  color: #dfdce3;
   display: flex;
   flex-direction: column;
+  font-family: Bahnschrift SemiBold;
   height: 100vh;
 }
 /* header */
 .directory {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 15px;
 }
-
-/* logo */
-
 /* nav */
-
-/* content */
+a {
+  color: #dfdce3;
+  text-decoration: none;
+}
+/* content main*/
+.pagetitle {
+  align-items: center;
+  background: #e87;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 750px;
+  padding: 20px;
+  width: 50%;
+}
+.name {
+  font-size: 300%;
+  color: #d1eeee;
+  margin: 2px;
+}
 .profilepic {
   height: 250px;
   float: left;
   padding: 24px;
-  width: 150px;
+  width: 175px;
 }
 .section-main {
   display: flex;
@@ -33,7 +45,43 @@ footer {
   justify-content: center;
 }
 .section-content {
-  max-width: 750px;
+  max-width: 60%;
+}
+/* content porfolio */
+.portfolio-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 24px;
+}
+.photowrapper-portfolio {
+  display: inline-block;
+  position: relative;
+}
+.phototitles {
+  background-color: rgb(255, 115, 0, 0.6);
+  bottom: 12px;
+  color: white;
+  font-size: 24px;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.flwrimg {
+  height: 250px;
+  width: 200px;
+}
+.earthimg {
+  height: 250px;
+  width: 200px;
+}
+.bicycleimg {
+  height: 250px;
+  width: 200px;
+}
+.blueimg {
+  height: 250px;
+  width: 200px;
 }
 /* footer */
 .end {
