@@ -10,12 +10,29 @@
 .directory {
   display: flex;
   justify-content: space-around;
+}
+.my-name {
   padding: 15px;
 }
 /* nav */
 a {
   color: #dfdce3;
   text-decoration: none;
+}
+.button {
+  background-color: rgb(255, 136, 0);
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  margin: 4px 2px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: #41b3a3;
 }
 /* content main*/
 .pagetitle {
@@ -32,6 +49,7 @@ a {
   font-size: 300%;
   color: #d1eeee;
   margin: 2px;
+  padding: 15;
 }
 .profilepic {
   height: 250px;
