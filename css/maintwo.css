@@ -10,6 +10,7 @@
 .directory {
   display: flex;
   justify-content: space-around;
+  margin: 15px;
 }
 .my-name {
   padding: 15px;
@@ -32,7 +33,7 @@ a {
   text-decoration: none;
 }
 .button:hover {
-  background-color: #41b3a3;
+  background-color: rgb(255, 176, 86);
 }
 /* content main*/
 .pagetitle {
@@ -49,7 +50,6 @@ a {
   font-size: 300%;
   color: #d1eeee;
   margin: 2px;
-  padding: 15;
 }
 .profilepic {
   height: 250px;
@@ -85,22 +85,12 @@ a {
   text-align: center;
   width: 100%;
 }
-.flwrimg {
+
+.portfolio-img {
   height: 250px;
   width: 200px;
 }
-.earthimg {
-  height: 250px;
-  width: 200px;
-}
-.bicycleimg {
-  height: 250px;
-  width: 200px;
-}
-.blueimg {
-  height: 250px;
-  width: 200px;
-}
+
 /* footer */
 .end {
   display: flex;
