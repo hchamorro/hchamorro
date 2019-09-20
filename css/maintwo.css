@@ -3,17 +3,18 @@
   color: #dfdce3;
   display: flex;
   flex-direction: column;
-  font-family: Bahnschrift SemiBold;
+  font-family: "Turret Road", cursive;
+  font-family: "Nunito", sans-serif;
   height: 100vh;
 }
 /* header */
 .directory {
   display: flex;
   justify-content: space-around;
-  margin: 15px;
+  margin: 20px;
 }
 .my-name {
-  padding: 15px;
+  padding: 20px;
 }
 /* nav */
 a {
@@ -28,7 +29,7 @@ a {
   cursor: pointer;
   display: inline-block;
   margin: 4px 2px;
-  padding: 15px 32px;
+  padding: 20px 32px;
   text-align: center;
   text-decoration: none;
 }
@@ -75,6 +76,7 @@ a {
   display: inline-block;
   position: relative;
 }
+
 .phototitles {
   background-color: rgb(255, 115, 0, 0.6);
   bottom: 12px;
@@ -89,6 +91,11 @@ a {
 .portfolio-img {
   height: 250px;
   width: 200px;
+}
+.portfolio-img:hover {
+  -moz-box-shadow: 0 0 20px rgb(255, 255, 255);
+  -webkit-box-shadow: 0 0 20px rgb(255, 255, 255);
+  box-shadow: 0 0 20px rgb(255, 255, 255);
 }
 
 /* footer */
