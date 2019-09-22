@@ -37,6 +37,9 @@ a {
   background-color: rgb(255, 176, 86);
 }
 /* content main*/
+.fld-c {
+  flex-direction: column;
+}
 .pagetitle {
   align-items: center;
   background: #e87;
@@ -97,7 +100,14 @@ a {
   -webkit-box-shadow: 0 0 20px rgb(255, 255, 255);
   box-shadow: 0 0 20px rgb(255, 255, 255);
 }
+/* content contact */
 
+.contact-section {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
 /* footer */
 .end {
   display: flex;
