@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/animationstyle.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Solway&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Hannah</title>
+  </head>
+  <body class=" ff-solway">
+    <!-- The parent container -->
+    <div class="bgc-deeaee container">
+      <!-- The div containing the image -->
+      <div class="image-container">
+        <img class="bdrs-50 bxsh-0-5-15-0 h-50vw" src="./propicsqu.jpg" />
+      </div>
+      <!-- The div containing the text that's revealed -->
+      <div id="slide" class="text-container wrapper">
+        <h2>Hannah</h2>
+        <h3>Web Developer</h3>
+        <div class="cur-p" id="portfolioBtn">Projects</div>
+        <div class="cur-p" id="contactBtn">Contact Me</div>
+        <div class="fading-effect"></div>
+      </div>
+    </div>
+    <!-- protfolio -->
+    <section class="bgc-main-green p-2 " id="portfolio" style="display: none">
+      <h1>Projects</h1>
+      <section class="d-f flw-w jc-se">
+        <div class="d-ib h-25vw ov-h pos-r w-30vw bgc-shadow-hv">
+          <a href="https://beerhunter.pub/">
+            <img src="./images/beer.jpg" class="w-100" />
+            <div class="bgc-trnsrust bdm-10 c-white fz-24 pos-a ta-c w-100">
+              Beer Hunter
+            </div>
+          </a>
+        </div>
+        <div class="d-ib h-25vw ov-h pos-r w-30vw bgc-shadow-hv">
+          <a href="https://hchamorro.github.io/codeQuiz/?">
+            <img src="./images/quizpic.png" class="w-100" />
+            <div class="bgc-trnsrust bdm-10 c-white fz-24 pos-a ta-c w-100">
+              Quiz Time!
+            </div>
+          </a>
+        </div>
+        <div class="d-ib h-25vw ov-h pos-r w-30vw bgc-shadow-hv">
+          <a href="https://hchamorro.github.io/dayPlanner/">
+            <img src="./images/Daily_planner-2.jpg" class="w-100" />
+            <div class="bgc-trnsrust bdm-10 c-white fz-24 pos-a ta-c w-100">
+              Day Planner
+            </div>
+          </a>
+        </div>
+      </section>
+    </section>
+
+    <!-- contacts -->
+    <section class="bgc-deeaee p-2" id="conatact" style="display: none;">
+      <h1>Contacts</h1>
+      <section class="d-f flgw-1 fld-c">
+        <div class="fz-24 d-f jc-c p-2">
+          <a href="https://github.com/hchamorro" class="td-n">
+            GitHub
+            <img src="./images/Octocat.png" width="40" />
+          </a>
+        </div>
+        <div class="fz-24 d-f jc-c p-2">
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=hannah.chamorro@gmail.com"
+            class="td-n"
+          >
+            <img class="" src="./images/Gmail_Icon.png" width="25" />
+            Email Me
+          </a>
+        </div>
+        <div class="fz-24 d-f jc-c p-2">
+          <a href="../Resume2019.pdf" class="td-n">Resume</a>
+        </div>
+      </section>
+    </section>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="app.js"></script>
+</html>
