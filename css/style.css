@@ -142,29 +142,29 @@
 }
 
 .ff-turrent {
-  font-family: "Turret Road", cursive;
+  font-family: 'Turret Road', cursive;
 }
 
 .ff-montserrat {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .ff-nunito {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 .ff-quicksand {
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .ff-robotoMono {
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
 }
 .ff-slabo {
-  font-family: "Slabo 27px", serif;
+  font-family: 'Slabo 27px', serif;
 }
 .ff-solway {
-  font-family: "Solway", serif;
+  font-family: 'Solway', serif;
 }
 .fl-start {
   float: left;
@@ -197,6 +197,9 @@
 .h-15 {
   height: 15em;
 }
+.h-20vw {
+  height: 20vw;
+}
 .h-25vw {
   height: 25vw;
 }
@@ -208,6 +211,12 @@
 }
 .jc-c {
   justify-content: center;
+}
+.jc-fe {
+  justify-content: flex-end;
+}
+.jc-fs {
+  justify-content: flex-start;
 }
 .jc-sa {
   justify-content: space-around;
@@ -260,6 +269,18 @@
 .p-1x1 {
   padding: 1rem 1rem;
 }
+.p-l-2 {
+  padding-left: 2rem;
+}
+.p-r-2 {
+  padding-right: 2rem;
+}
+.p-tp-1 {
+  padding-top: 1rem;
+}
+.p-tp-2 {
+  padding-top: 2rem;
+}
 .pos-a {
   position: absolute;
 }
@@ -274,6 +295,9 @@
 }
 .td-n {
   text-decoration: none;
+}
+.w-20vw {
+  width: 20vw;
 }
 .w-25vw {
   width: 25vw;

@@ -14,7 +14,15 @@
 
     <title>Hannah</title>
   </head>
+
   <body class=" ff-solway">
+    <div id="mediaHeader" class="media-header">
+      <h2>Hannah</h2>
+      <h3>Web Developer</h3>
+      <div class="cur-p" id="mediaPortfolioBtn">Projects</div>
+      <div class="cur-p" id="mediaContactBtn">Contact Me</div>
+      <div class="fading-effect"></div>
+    </div>
     <!-- The parent container -->
     <div class="bgc-deeaee container">
       <!-- The div containing the image -->
@@ -33,34 +41,80 @@
         <div class="fading-effect"></div>
       </div>
     </div>
+
     <!-- protfolio -->
     <section class="bgc-main-green p-2 " id="portfolio" style="display: none">
       <h1>Projects</h1>
-      <section class="d-f flw-w jc-se">
-        <div class="d-ib h-25vw ov-h pos-r w-30vw bgc-shadow-hv">
-          <a href="https://beerhunter.pub/">
-            <img src="./images/beer.jpg" class="w-100" />
-            <div class="bgc-trnsrust bdm-10 c-white fz-24 pos-a ta-c w-100">
-              Beer Hunter
-            </div>
-          </a>
-        </div>
-        <div class="d-ib h-25vw ov-h pos-r w-30vw bgc-shadow-hv">
-          <a href="https://hchamorro.github.io/codeQuiz/?">
-            <img src="./images/quizpic.png" class="w-100" />
-            <div class="bgc-trnsrust bdm-10 c-white fz-24 pos-a ta-c w-100">
-              Quiz Time!
-            </div>
-          </a>
-        </div>
-        <div class="d-ib h-25vw ov-h pos-r w-30vw bgc-shadow-hv">
-          <a href="https://hchamorro.github.io/dayPlanner/">
-            <img src="./images/Daily_planner-2.jpg" class="w-100" />
-            <div class="bgc-trnsrust bdm-10 c-white fz-24 pos-a ta-c w-100">
-              Day Planner
-            </div>
-          </a>
-        </div>
+      <!-- <section class="d-f flw-w jc-se"> -->
+      <section>
+        <section
+          class="d-f flw-w jc-fe
+         m-1 p-r-2"
+        >
+          <div class="maw-50 m-a">
+            FitBOARD, a socail media site where users can invite and challenge
+            friends in competitions. FitBOARD allows users to post pictures and
+            update their status of their healthy life style. FitBOARD is in
+            constant development. It was created using a node base server and
+            original SQL database to compile it's own API.
+          </div>
+          <div class="d-ib h-20vw ov-h pos-r w-20vw bgc-shadow-hv">
+            <a href="https://fitboardathletic.herokuapp.com/">
+              <img src="./images/fitness.jpg" class="w-100" />
+              <div class="bgc-trnsrust bdm-10 c-white fz-24 pos-a ta-c w-100">
+                FitBOARD
+              </div>
+            </a>
+          </div>
+        </section>
+        <section class="d-f flw-w jc-fs m-1 p-l-2">
+          <div class="d-ib h-20vw ov-h pos-r w-20vw bgc-shadow-hv">
+            <a href="https://beerhunter.pub/">
+              <img src="./images/beer.jpg" class="w-100" />
+              <div class="bgc-trnsrust bdm-10 c-white fz-24 pos-a ta-c w-100">
+                Beer Hunter
+              </div>
+            </a>
+          </div>
+          <div class="maw-50 m-a">
+            Beer Hunter, a website that connects users with breweries near them.
+            It was created using Open Brewery DB, a free API for public
+            information on brweries and GoogleMaps API. This page includes
+            features that allows users to search and map out places they would
+            like to visit.
+          </div>
+        </section>
+        <section
+          class="d-f flw-w jc-fe
+         m-1 p-r-2"
+        >
+          <div class="maw-50 m-a">
+            Quiz Time, a JavaScript app the entails the syntax for many standard
+            functions that such as timing, loops, display changes, and storing.
+          </div>
+          <div class="d-ib h-20vw ov-h pos-r w-20vw bgc-shadow-hv">
+            <a href="https://hchamorro.github.io/codeQuiz/?">
+              <img src="./images/quizpic.png" class="w-100" />
+              <div class="bgc-trnsrust bdm-10 c-white fz-24 pos-a ta-c w-100">
+                Quiz Time!
+              </div>
+            </a>
+          </div>
+        </section>
+        <section class="d-f flw-w jc-fs m-1 p-l-2">
+          <div class="d-ib h-20vw ov-h pos-r w-20vw bgc-shadow-hv">
+            <a href="https://hchamorro.github.io/dayPlanner/">
+              <img src="./images/Daily_planner-2.jpg" class="w-100" />
+              <div class="bgc-trnsrust bdm-10 c-white fz-24 pos-a ta-c w-100">
+                Day Planner
+              </div>
+            </a>
+          </div>
+          <div class="maw-50 m-a">
+            Day Planner, a simple site that helps users keep their day on task
+            and organized.
+          </div>
+        </section>
       </section>
     </section>
 
@@ -69,7 +123,7 @@
       <h1>Contacts</h1>
       <section class="d-f flgw-1 fld-c">
         <div class="fz-24 d-f jc-c p-2">
-          <a href="https://github.com/hchamorro" class="td-n">
+          <a href="https://github.com/hchamorro" class="cur-p td-n">
             GitHub
             <img src="./images/Octocat.png" width="40" />
           </a>
@@ -77,14 +131,14 @@
         <div class="fz-24 d-f jc-c p-2">
           <a
             href="https://mail.google.com/mail/?view=cm&fs=1&to=hannah.chamorro@gmail.com"
-            class="td-n"
+            class="cur-p td-n"
           >
             Email Me
             <img class="ml-5px" src="./images/Gmail_Icon.png" width="25" />
           </a>
         </div>
         <div class="fz-24 d-f jc-c p-2">
-          <a href="./images/Chamorro_Resume.pdf" class="td-n">Resume</a>
+          <a href="./images/Chamorro_Resume.pdf" class="cur-p td-n">Resume</a>
           <img class="ml-5px" src="./images/res.png" width="30" />
         </div>
       </section>

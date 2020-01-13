@@ -1,24 +1,34 @@
 const showPortfolio = () => {
-  portfolio.style.display = "block";
-  conatact.style.display = "block";
+  portfolio.style.display = 'block';
+  conatact.style.display = 'block';
 };
 
-$("#portfolioBtn").on("click", () => {
+$('#portfolioBtn').on('click', () => {
   showPortfolio();
-  $("html,body").animate(
+  $('html,body').animate(
     {
-      scrollTop: $("#portfolio").offset().top
+      scrollTop: $('#portfolio').offset().top
     },
-    "slow"
+    'slow'
   );
 });
 
-$("#contactBtn").on("click", () => {
+$('#mediaPortfolioBtn').on('click', () => {
   showPortfolio();
-  $("html,body").animate(
+  $('html,body').animate(
     {
-      scrollTop: $("#conatact").offset().top
+      scrollTop: $('#portfolio').offset().top
     },
-    "slow"
+    'slow'
+  );
+});
+
+$('#mediaContactBtn').on('click', () => {
+  showPortfolio();
+  $('html,body').animate(
+    {
+      scrollTop: $('#conatact').offset().top
+    },
+    'slow'
   );
 });
