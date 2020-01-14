@@ -10,9 +10,19 @@
 .cur-p {
   cursor: pointer;
 }
-.media-header {
-  display: none;
+.fading-effect {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background: #d4edf7;
+  -webkit-animation: text-slide 4s cubic-bezier(0.5, 0.5, 0, 1);
+  animation: text-slide 4s cubic-bezier(0.5, 0.5, 0, 1);
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
 }
+
 .image-container {
   position: absolute;
   top: 50%;
@@ -26,6 +36,9 @@
   animation: image-slide 4s cubic-bezier(0.5, 0.5, 0, 1);
   animation-fill-mode: forwards;
 }
+.media-header {
+  display: none;
+}
 
 .text-container {
   position: absolute;
@@ -35,19 +48,6 @@
   transform: translate(-40%, -40%);
   z-index: 1;
   margin-left: -100px;
-}
-
-.fading-effect {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  background: #d4edf7;
-  -webkit-animation: text-slide 4s cubic-bezier(0.5, 0.5, 0, 1);
-  animation: text-slide 4s cubic-bezier(0.5, 0.5, 0, 1);
-  animation-fill-mode: forwards;
-  -webkit-animation-fill-mode: forwards;
 }
 
 /* Slides the image from left (-250px) to right (150px) */
