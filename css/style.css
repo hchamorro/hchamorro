@@ -1,8 +1,8 @@
-:root {
+/* :root {
   --theme-color-main: #448d76;
   --theme-color-light: #e7f7d4;
   --theme-color-dark: #2b5a4b;
-}
+} */
 
 .ai-c {
   align-items: center;
@@ -51,6 +51,9 @@
 }
 .bgc-6f9fd8 {
   background-color: #6f9fd8;
+}
+.bgc-001f3f {
+  background-color: #001f3f;
 }
 
 .bgc-dark-blue {
@@ -126,6 +129,12 @@
 }
 .cur-p {
   cursor: pointer;
+}
+.c-blue {
+  color: #0074d9;
+}
+.c-white {
+  color: whitesmoke;
 }
 
 .d-f {
@@ -319,4 +328,10 @@
 }
 .w-100 {
   width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .d-f\@sml {
+    display: flex;
+  }
 }

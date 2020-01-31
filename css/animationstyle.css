@@ -16,7 +16,7 @@
   bottom: 0;
   right: 0;
   width: 100%;
-  background: #d4edf7;
+  background: #001f3f
   -webkit-animation: text-slide 4s cubic-bezier(0.5, 0.5, 0, 1);
   animation: text-slide 4s cubic-bezier(0.5, 0.5, 0, 1);
   animation-fill-mode: forwards;
