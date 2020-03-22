@@ -55,7 +55,9 @@
 .bgc-001f3f {
   background-color: #001f3f;
 }
-
+.bgc-blue {
+  background-color: #0074d9;
+}
 .bgc-dark-blue {
   background-color: #6f9fd8;
 }
@@ -268,6 +270,9 @@
 }
 .p-\.5 {
   padding: 0.5rem;
+}
+.p-\.75 {
+  padding: 0.75rem;
 }
 .p-1 {
   padding: 1rem;
