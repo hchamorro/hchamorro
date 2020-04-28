@@ -1,7 +1,16 @@
 $('#portfolioBtn').on('click', () => {
   $('html,body').animate(
     {
-      scrollTop: $('#portfolio').offset().top
+      scrollTop: $('#portfolio').offset().top,
+    },
+    'slow'
+  );
+});
+
+$('#aboutBtn').on('click', () => {
+  $('html,body').animate(
+    {
+      scrollTop: $('#about').offset().top,
     },
     'slow'
   );
@@ -10,7 +19,7 @@ $('#portfolioBtn').on('click', () => {
 $('#contactBtn').on('click', () => {
   $('html,body').animate(
     {
-      scrollTop: $('#conatact').offset().top
+      scrollTop: $('#conatact').offset().top,
     },
     'slow'
   );
@@ -19,7 +28,7 @@ $('#contactBtn').on('click', () => {
 $('#mediaPortfolioBtn').on('click', () => {
   $('html,body').animate(
     {
-      scrollTop: $('#portfolio').offset().top
+      scrollTop: $('#portfolio').offset().top,
     },
     'slow'
   );
@@ -28,7 +37,16 @@ $('#mediaPortfolioBtn').on('click', () => {
 $('#mediaContactBtn').on('click', () => {
   $('html,body').animate(
     {
-      scrollTop: $('#conatact').offset().top
+      scrollTop: $('#conatact').offset().top,
+    },
+    'slow'
+  );
+});
+
+$('#mediaAboutBtn').on('click', () => {
+  $('html,body').animate(
+    {
+      scrollTop: $('#about').offset().top,
     },
     'slow'
   );
